@@ -1,6 +1,6 @@
 //Don't touch this code if you you don't know what it does
 import { useState } from 'react';
-import Logo from '../assets/react.svg';
+// import Logo from '../assets/react.svg';
 import NavLinks from './navlinks';
 
 function Navbar() {
@@ -10,7 +10,8 @@ function Navbar() {
     return (
         <nav className='flex justify-between'>
             <a href='/'>
-                <img src={Logo} className="h-16 cursor-pointer " alt="Ark youth Church logo" />
+            <p className='text-3xl text-blue-50 text-bold'>Code HUB KE</p>
+                {/* <img src={Logo} className="h-16 cursor-pointer " alt="Ark youth Church logo" /> */}
             </a>
             {/* Here are the nav links */}
             <ul className='md:flex hidden items-center gap-4 mx-3'>
